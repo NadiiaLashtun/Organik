@@ -1,0 +1,13 @@
+input {
+  width: 350px;
+  height: 82px;
+  border: 1px solid var(--border-color-dark);
+  border-radius: 16px;
+  padding: 26px 30px;
+  font-size: 18px;
+
+  &:focus {
+    outline: 1px solid var(--brand-color-darck);
+    box-shadow: 0 0 18px var(--brand-color-darck);
+  }
+}

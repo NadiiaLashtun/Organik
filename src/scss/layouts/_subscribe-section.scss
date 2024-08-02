@@ -1,0 +1,28 @@
+.subscribe-section {
+  padding: 110px 30px 50px;
+
+  &__container {
+    background-image: url(../img/subscribe-bg.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    padding: 100px 70px;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+
+  &__form {
+    display: flex;
+    gap: 10px;
+  }
+}

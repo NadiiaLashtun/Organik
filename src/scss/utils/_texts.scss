@@ -1,0 +1,9 @@
+.text {
+  &--white {
+    color: var(--primary-color-white);
+  }
+
+  &--regular {
+    font-weight: 400;
+  }
+}

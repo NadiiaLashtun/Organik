@@ -1,0 +1,57 @@
+.card {
+  flex-basis: calc((100% - 100px) / 3);
+  flex-grow: 1;
+  /* max-width: 447px;*/
+  background-color: var(--primary-color);
+  border-radius: 30px;
+  padding: 30px 30px 35px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.4s ease-in-out;
+
+  &:hover {
+    transform: scale(101%);
+    box-shadow: 0 0 18px var(--brand-color-darck);
+    cursor: pointer;
+  }
+
+  &__product-type {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: var(--primary-color-white);
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 15px;
+  }
+
+  &__img {
+    margin-bottom: 20px;
+  }
+
+  &__product-name {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  &__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--primary-color-light);
+    padding-top: 12px;
+  }
+
+  &__discont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    &--crossed {
+      text-decoration: line-through;
+      color: var(--primary-color-light);
+      font-size: 17px;
+      line-height: 1.9;
+    }
+  }
+}

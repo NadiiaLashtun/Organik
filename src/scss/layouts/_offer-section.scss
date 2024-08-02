@@ -1,0 +1,28 @@
+.offer-section {
+  &__container {
+    padding: 140px 30px 160px;
+    background-color: var(--secondary-color);
+  }
+
+  &__title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 44px;
+
+    &__btn {
+      border: 1px solid transparent;
+
+      &:hover {
+        border: 1px solid var(--primary-color-white);
+      }
+    }
+  }
+
+  &__cards-container {
+    display: flex;
+    place-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,19 @@
+.hero-section {
+  background-image: url(../img/main-page-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 220px 30px 250px;
+
+  &__text-block {
+    max-width: 496px;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__subtitle {
+    margin-bottom: 14px;
+  }
+}

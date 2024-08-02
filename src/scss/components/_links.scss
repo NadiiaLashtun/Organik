@@ -1,0 +1,11 @@
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 0.4s ease-in-out;
+
+  &:hover {
+    color: var(--brand-color-darck);
+    cursor: pointer;
+  }
+}

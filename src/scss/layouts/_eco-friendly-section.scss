@@ -1,0 +1,39 @@
+.eco-friendly-section {
+  &__container {
+    padding: 0 40px 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  &__img {
+    flex-basis: 50%;
+    margin-left: -40px;
+    margin-bottom: -60px;
+  }
+
+  &__text-block {
+    position: absolute;
+    top: 40px;
+    left: 44%;
+    right: 2%;
+    bottom: 40px;
+    border-radius: 30px;
+    padding: 40px 60px 54px;
+    /*max-width: 720px;*/
+    background-color: var(--primary-color-white);
+  }
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__item-title {
+    font-size: 23px;
+    margin-bottom: 4px;
+  }
+
+  &__item-text {
+    margin-bottom: 15px;
+  }
+}

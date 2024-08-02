@@ -1,0 +1,25 @@
+@import "utils/variables";
+@import "utils/fonts";
+@import "base";
+@import "utils/texts";
+
+@import "components/buttons";
+@import "components/links";
+@import "components/icons";
+@import "components/inputs";
+
+@import "layouts/header";
+@import "layouts/hero-section";
+@import "layouts/benefit-section";
+@import "layouts/about-section";
+@import "layouts/products-section";
+@import "components/product-card";
+
+@import "layouts/customer-section";
+@import "layouts/offer-section";
+@import "layouts/eco-friendly-section";
+@import "layouts/type_product-section";
+@import "layouts/recent-content-section";
+@import "layouts/subscribe-section";
+@import "layouts/contact-section";
+@import "layouts/footer";

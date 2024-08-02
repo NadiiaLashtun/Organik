@@ -1,0 +1,78 @@
+.customer-section {
+  background-image: url(../img/review-section.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+
+  &__container {
+    padding: 130px 30px 150px;
+  }
+
+  &__text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--border-color);
+    max-width: 966px;
+    padding-bottom: 96px;
+  }
+
+  &__title {
+    margin-bottom: 60px;
+  }
+
+  &__img {
+    /*display: block;*/
+    max-width: 115px;
+    margin-bottom: 18px;
+  }
+
+  &__stars {
+    margin-bottom: 30px;
+  }
+
+  &__rewiew {
+    margin-bottom: 23px;
+  }
+
+  &__customer-name {
+    font-size: 26px;
+  }
+
+  &__customer-profession {
+    font-size: 14px;
+  }
+
+  &__benefit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    padding-top: 100px;
+  }
+
+  &__benefit-card {
+    background-color: var(--third-color-light);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 4px var(--primary-color-white),
+      -1px -1px 0px 8px var(--brand-color-darck);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+  }
+
+  &__benefit-card-description {
+    font-family: "Roboto", sans-serif;
+    font-size: 42px;
+    line-height: 1.3;
+  }
+}

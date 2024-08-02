@@ -1,0 +1,19 @@
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--secondary-color);
+  transition: all 0.4s ease-in-out;
+
+  &:hover {
+    fill: var(--brand-color-darck);
+    filter: drop-shadow(0 0 15px var(--brand-color-darck));
+    transform: scale(1.3);
+  }
+}
+
+.icon-profile {
+  width: 18px;
+  height: 20px;
+  margin-right: 4px;
+  fill: var(--brand-color-darck);
+}
