@@ -1,25 +1,28 @@
 .header {
   &__container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 30px;
+    gap: 20px;
+    padding: 20px;
 
-    @media screen and (max-width: $bp-tablet) {
-      flex-direction: column;
+    @media screen and (min-width: $bp-desktop) {
+      flex-direction: row;
+      padding: 40px 30px;
       gap: 30px;
-    }
-
-    @media screen and (max-width: $bp-mobile) {
-      display: none;
     }
   }
 
   &__menu {
-    display: flex;
+    display: none;
     gap: 40px;
     list-style-type: none;
     padding: 0;
+
+    @media screen and (min-width: $bp-desktop) {
+      display: flex;
+    }
   }
 
   &__menu-item {
@@ -31,7 +34,7 @@
   &__cart {
     display: none;
 
-    @media screen and (min-width: $bp-tablet) {
+    @media screen and (min-width: $bp-desktop) {
       display: flex;
       gap: 10px;
       align-items: center;
@@ -53,7 +56,7 @@
     border: none;
     fill: var(--secondary-color);
 
-    @media screen and (min-width: $bp-tablet) {
+    @media screen and (min-width: $bp-desktop) {
       display: none;
     }
   }
