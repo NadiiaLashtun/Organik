@@ -5,7 +5,11 @@
   background-position: 50% 50%;
 
   &__container {
-    padding: 130px 30px 150px;
+    padding: 65px 20px 75px;
+
+    @media screen and (min-width: $bp-tablet) {
+      padding: 130px 30px 150px;
+    }
   }
 
   &__text-block {
@@ -17,7 +21,11 @@
     margin: 0 auto;
     border-bottom: 1px solid var(--border-color);
     max-width: 966px;
-    padding-bottom: 96px;
+    padding-bottom: 48px;
+
+    @media screen and (min-width: $bp-tablet) {
+      padding-bottom: 96px;
+    }
   }
 
   &__title {
@@ -47,17 +55,30 @@
   }
 
   &__benefit-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     justify-content: center;
+    justify-items: center;
     align-items: center;
-    gap: 42px;
-    padding-top: 100px;
+    gap: 32px;
+    padding-top: 50px;
+
+    @media screen and (min-width: $bp-tablet) {
+      grid-template-columns: repeat(2, min-content);
+      gap: 42px;
+      padding-top: 100px;
+    }
+
+    @media screen and (min-width: $bp-desktop) {
+      grid-template-columns: repeat(4, min-content);
+    }
   }
 
   &__benefit-card {
+    flex-shrink: 0;
     background-color: var(--third-color-light);
-    width: 250px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     box-shadow: 0px 0px 0px 4px var(--primary-color-white),
       -1px -1px 0px 8px var(--brand-color-darck);
@@ -68,6 +89,11 @@
     align-items: center;
 
     font-weight: bold;
+
+    @media screen and (min-width: $bp-desktop) {
+      width: 250px;
+      height: 250px;
+    }
   }
 
   &__benefit-card-description {
