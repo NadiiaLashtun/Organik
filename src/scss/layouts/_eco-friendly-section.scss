@@ -14,8 +14,10 @@
   &__img {
     max-width: 100%;
 
-    @media screen and (min-width: $bp-tablet) {
+    @media screen and (min-width: $bp-desktop) {
+      width: 55%;
       margin-left: -40px;
+      object-fit: cover;
     }
   }
 
